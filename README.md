@@ -4,9 +4,10 @@ First test of a lego mindstroms robot. It inspired in drag racer in [Maximum LEG
 
 ## Targets
 
-* Test if leJOS can be compiled and packaged using maven
-* Test how to unit test leJOS
-* Learn the basic leJOS api
+* Test if leJOS can be compiled and packaged using maven.
+* Test how to unit test leJOS.
+* Learn the basic leJOS api.
+* Learn how to upload and execute the generated jar in a ev3 brick.
 
 ##Build
 
