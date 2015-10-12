@@ -1,22 +1,28 @@
 package io.wasupu.mae.robot;
 
+import io.wasupu.mae.robot.components.LeftMotor;
+import io.wasupu.mae.robot.components.Motor;
+import io.wasupu.mae.robot.components.RightMotor;
+import io.wasupu.mae.robot.components.Speaker;
+
 public class Robot {
-	
-	public Robot(){
-		speaker = new Speaker();
-		rightMotor = new Motor();
-	}
 	
 	public void goAhead() {
 		speaker.playTone(1000, 800);
+		goForward();
+	}
+
+	private void goForward() {
 		rightMotor.forward();
-		rightMotor.stop();
-		/*System.out.println("Mae is alive");
-		Button.waitForAnyPress();
-		Delay.msDelay(1500);
-		*/
+		leftMotor.forward();
 	}
 	
+	public void stop(){
+		rightMotor.stop();
+		leftMotor.stop();
+	}
+
 	private Speaker speaker = new Speaker();
-	private Motor rightMotor = new Motor();
+	private Motor rightMotor = new RightMotor();
+	private Motor leftMotor = new LeftMotor();	
 }

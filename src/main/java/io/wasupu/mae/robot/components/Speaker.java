@@ -1,4 +1,4 @@
-package io.wasupu.mae.robot;
+package io.wasupu.mae.robot.components;
 
 import lejos.hardware.Sound;
 
