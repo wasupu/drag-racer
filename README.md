@@ -9,7 +9,7 @@ First test of a lego mindstroms robot. It inspired in drag racer in [Maximum LEG
 * Learn the basic leJOS api.
 * Learn how to upload and execute the generated jar in a ev3 brick.
 
-##Build
+## Build
 
 Download http://sourceforge.net/projects/ev3.lejos.p/files/0.9.0-beta/
 
