@@ -1,6 +1,6 @@
 # mae
 
-First test of a lego mindstroms robot. It inspired in drag racer in [Maximum LEGO EV3: Building Robots with Java Brains] (http://www.amazon.com/exec/obidos/ASIN/0986832294/lejos0e-20)
+First test of a lego mindstroms robot. It inspired in drag racer in [Maximum LEGO EV3: Building Robots with Java Brains(http://www.amazon.com/exec/obidos/ASIN/0986832294/lejos0e-20)
 
 ## Targets
 
